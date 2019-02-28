@@ -2,13 +2,13 @@ Multi-Users-System
 
 Hi!
 
-This project provide a general layer of common basic multi-users system like create/delete etc of new users . 
+This project provides a general layer of common basic multi-users system like create/delete etc of new users . 
 
-It’s can be used for primary layer to any app.
+Itâ€™s can be used for primary layer to any app.
 
-It’s written with Java, currently in the core-console version.
+Itâ€™s written with Java, currently in the core-console version.
 
-It’s talking with MongoDB , but the API is pretty simple, and you can change it to another DB as you wish, by implementing the interface .
+Itâ€™s talking with MongoDB , but the API is pretty simple, and you can change it to another DB as you wish, by implementing the interface .
 
 For running this version you need Java and Mongo running in background. 
 
