@@ -1,0 +1,41 @@
+//display all users - FROM DBConnector 
+	public void displayAllUsers(){
+		
+		FindIterable<Document> iterDoc = collection.find(); 
+		Iterator<Document> it = iterDoc.iterator(); 
+		Iterator it2;
+		TreeMap< String, TreeMap<String, String>>  data1 = new TreeMap< String, TreeMap<String, String>>();
+		TreeMap< String, Set<Map.Entry<String, Object>>>  data2 = new TreeMap< String, Set<Map.Entry<String, Object>> >();
+		//
+		while(it.hasNext()){
+			Document doc = it.next();
+			Set set1 = doc.keySet();
+			Collection<Object> set2 = doc.values();
+			Set set3 = doc.entrySet();
+			Set<Map.Entry<String, Object>> set4 = doc.entrySet();
+			//Map.EntryString, Object> set5 = doc.e
+			System.out.println(doc);
+			System.out.println(set1);
+			System.out.println(set2);
+			System.out.println(set3);
+			System.out.println("set4");
+			System.out.println(set4);
+			System.out.println("set4");
+			it2 = set4.iterator();
+			Map.Entry<String, Object> entry  = set4.iterator().next();
+			System.out.println("entry = " + entry );entry.getValue();entry.getKey();
+			data2.put(doc.get("userName").toString(), set4);
+			System.out.println("?????");
+			set4.forEach(System.out::println);
+			set4.forEach(System.out::println);
+			
+			//data1.put()
+			//u here - u need to make map object with the values, that every key of user-name contain set
+			// like that: 
+			//(Tree - Map-Element)user1 :(Set)"userid": "222", userName: "user1" , "email" : "dd@sss", ....etc|
+		}
+		System.out.println("the whole data : \n\n");
+		System.out.println(data2);
+		
+		
+	}

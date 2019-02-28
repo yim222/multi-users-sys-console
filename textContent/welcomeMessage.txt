@@ -1,0 +1,19 @@
+WELCOME TO YIM-PROGRAMMING "MULTI-USERS-SYSEM"
+This system is example to console multi-users system. If you are developer or you want to use such system that Customized to your needs please contact me at my website yimprogramming.com or at 
+yimprogramming@gmail.com.
+
+For further details also, please visit my website. 
+
+Please check and play with this program for understanding the basic features it is offers. 
+
+****************************************** 
+
+NOTICE: 
+
+YOU ARE NOW DEFINING THE SUPER-ADMIN USER. 
+
+This user can’t be deleted and server as the basic entering to this program. 
+(after that u’ll be able to create new regular and admin users).
+
+1-Notice to insert details you’ll remember and document them as needed. 
+2- Don’t show or expose those details to unwanted Factors.

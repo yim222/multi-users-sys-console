@@ -1,0 +1,22 @@
+Multi-Users-System
+
+Hi!
+
+This project provide a general layer of common basic multi-users system like create/delete etc of new users . 
+
+It’s can be used for primary layer to any app.
+
+It’s written with Java, currently in the core-console version.
+
+It’s talking with MongoDB , but the API is pretty simple, and you can change it to another DB as you wish, by implementing the interface .
+
+For running this version you need Java and Mongo running in background. 
+
+Run the class : 
+src\main\java\execution\RunProgram.java
+
+For change setting like DB name and global settings check the package : 
+src/main/java/system/constants
+
+For further Q&A please contact me : 
+yimprogramming@gmail.com
